@@ -1,0 +1,10 @@
+n=int(input("enter the size of list"))
+l=[]
+for i in range(0,n):
+    a=int(input("enter the value of :"))
+    l.append(a)
+maxi=0
+for i in range(0,n):
+    if( maxi<l[i]):
+        maxi=l[i]
+print("The maximum element from the list is:",maxi)
